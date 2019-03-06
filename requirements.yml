@@ -1,0 +1,5 @@
+---
+- name: geerlingguy.homebrew
+- name: geerlingguy.mas
+- name: comcast.sdkman
+- name: viasite-ansible.zsh

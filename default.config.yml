@@ -1,0 +1,22 @@
+---
+
+install_apps: yes
+
+#see the homebrew role https://github.com/geerlingguy/ansible-role-homebrew
+chocolatey_apps:
+  - googlechrome
+  - google-backup-and-sync
+  - sublimetext3
+  - skype
+  - utorrent
+  - 7zip.install
+  - freecommander-xe.install
+  - puntoswitcher
+  - office365proplus
+  - keepass.install
+  - plexmediaserver
+#  - office365business
+#  - teamviewer
+#  - cmder
+#  - jdk8
+#  - intellijidea-ultimate
