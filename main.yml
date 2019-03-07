@@ -16,3 +16,9 @@
 
   tasks:
     - include_tasks: tasks/apps.yml
+      when: (install_apps and chocolatey_apps)
+      tags: ['apps']
+
+    - include_tasks: tasks/folders.yml
+      when: (configure_folders and present_folders)
+      tags: ['folders']

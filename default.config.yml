@@ -1,6 +1,7 @@
 ---
 
 install_apps: yes
+configure_folders: yes
 
 #see the homebrew role https://github.com/geerlingguy/ansible-role-homebrew
 chocolatey_apps:
@@ -15,8 +16,16 @@ chocolatey_apps:
   - office365proplus
   - keepass.install
   - plexmediaserver
+  - steam
 #  - office365business
 #  - teamviewer
 #  - cmder
 #  - jdk8
 #  - intellijidea-ultimate
+
+present_folders:
+  - C:\google-drive
+  - C:\movies
+  - C:\games
+  - C:\tv-series
+  - C:\downloads
