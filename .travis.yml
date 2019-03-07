@@ -1,5 +1,6 @@
 ---
 os: windows
+language: sh
 
 before_install:
   # Uninstall existing Homebrew installation.
