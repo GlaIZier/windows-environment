@@ -12,6 +12,8 @@ Todo move to chocolatey script (https://github.com/chocolatey/choco/issues/1286,
 no
 
 ## Installation
+Install [chocolatey](https://chocolatey.org/docs/installation)
+
   Install Ansible on the same Windows machine, which could be tricky, or install it on a Linux machine and change inventory file to control a Windows machine remotely. 
 ### Installation on Windows
 https://www.jeffgeerling.com/blog/2017/using-ansible-through-windows-10s-subsystem-linux
@@ -20,6 +22,8 @@ https://www.jeffgeerling.com/blog/2017/using-ansible-through-windows-10s-subsyst
   3. Clone this repository to your local drive.
 
 ## Run
+1. `choco install packages.config`
+
 TBD
 ### Run all tasks
 `ansible-playbook main.yml -i inventory -K` inside this directory. Enter your account password when prompted. \
