@@ -1,4 +1,4 @@
-choco install packages.config
+choco install packages.config -y --debug
 
 echo Applications have been installed
 
