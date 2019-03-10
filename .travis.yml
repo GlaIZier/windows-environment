@@ -1,13 +1,6 @@
 ---
 os: windows
-
-before_install:
-  # Uninstall existing Homebrew installation.
-  - ls -la C:\Chocolatey
-  - ls -la C:\ProgramData\chocolatey
-  - echo $env:path
-  - rm -rf C:\ProgramData\chocolatey
+language: bash
 
 script:
-
-  - "echo hello"
+  - run.bat

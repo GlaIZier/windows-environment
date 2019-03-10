@@ -1,8 +1,0 @@
----
-- name: Ensure folders exist
-  win_file:
-    path: "{{ item }}"
-    state: directory
-  with_items: "{{ present_folders }}"
-
-
