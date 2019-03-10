@@ -4,5 +4,5 @@ language: cpp
 
 # https://travis-ci.community/t/run-under-cmd-exe/1811/3
 script:
-  - run.bat
+  - ./run.bat
   - "echo hello"
