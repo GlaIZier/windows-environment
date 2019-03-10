@@ -2,7 +2,7 @@
 os: windows
 language: cpp
 
-# https://travis-ci.community/t/run-under-cmd-exe/1811/3
+# how to run .bat scripts https://travis-ci.community/t/run-under-cmd-exe/1811/3
+# https://stackoverflow.com/questions/11865085/out-of-a-git-console-how-do-i-execute-a-batch-file-and-then-return-to-git-conso
 script:
   - ./run.bat
-  - "echo hello"
