@@ -4,15 +4,18 @@
 Todo move to chocolatey script (https://github.com/chocolatey/choco/issues/1286, https://stackoverflow.com/questions/4165387/create-folder-with-batch-but-only-if-it-doesnt-already-exist) as Ansible have problems with Windows: required to RM to be install on (https://docs.ansible.com/ansible/latest/user_guide/windows_winrm.html#authentication-options) and it's difficult to install it on a control machine.
 
 ## What does it do
-1. Installs chocolatey 
-2. Installs applications (chrome... check the full list in the config)
-3. Creates directories for different purposes
+1. Installs applications by chocolatey (chrome... check the full list in the config)
+2. Creates directories for different purposes
+
+## Why not Ansible
+TBD
 
 ## Dependencies
 no
 
 ## Installation
 Install [chocolatey](https://chocolatey.org/docs/installation)
+TBD
 
   Install Ansible on the same Windows machine, which could be tricky, or install it on a Linux machine and change inventory file to control a Windows machine remotely. 
 ### Installation on Windows
@@ -34,12 +37,7 @@ By using these strategies you can execute tasks one by one.
 
 
 ## Config
-You can override any of the defaults configured in `default.config.yml` by creating a `config.yml` file and setting the overrides in that file. For example, you can customize the installed packages and apps with something like:
-
-    chocolatey_apps:
-      - cowsay
-      - git
-      - go
+You can always add additional packages to packages.config
  
 ## Idempotence
-TBD
+This script is idempotent
