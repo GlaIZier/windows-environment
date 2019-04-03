@@ -1,10 +1,10 @@
 echo Creating folders script is being executed
 
-set disk=%1
-if not defined disk set disk=D
-echo Disk is set to %disk%
+set path=%1
+if not defined path set path=C:
+echo Disk is set to %path%
 
-set folders=%disk%:\google-drive %disk%:\movies %disk%:\tv-series %disk%:\downloads %disk%:\games
+set folders=%path%\google-drive %path%\movies %path%\tv-series %path%\games %path%\downloads
 
 echo Folders to be created %folders%
 

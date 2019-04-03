@@ -25,7 +25,8 @@ https://www.jeffgeerling.com/blog/2017/using-ansible-through-windows-10s-subsyst
   3. Clone this repository to your local drive.
 
 ## Run
-1. `choco install packages.config`
+In powershell
+```./run.bat <path to folder to be created> (C:\Users\user)```
 
 TBD
 ### Run all tasks
