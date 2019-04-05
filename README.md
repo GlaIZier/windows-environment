@@ -19,10 +19,7 @@ TBD
 
   Install Ansible on the same Windows machine, which could be tricky, or install it on a Linux machine and change inventory file to control a Windows machine remotely. 
 ### Installation on Windows
-https://www.jeffgeerling.com/blog/2017/using-ansible-through-windows-10s-subsystem-linux
-  1. Ensure Apple's command line tools are installed (`xcode-select --install` to launch the installer).
-  2. [Install Ansible](https://www.ansible.com/integrations/infrastructure/windows).
-  3. Clone this repository to your local drive.
+Install chocolatey
 
 ## Run
 In powershell
