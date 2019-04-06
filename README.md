@@ -15,7 +15,6 @@ no
 
 ## Installation
 Install [chocolatey](https://chocolatey.org/docs/installation)
-TBD
 
   Install Ansible on the same Windows machine, which could be tricky, or install it on a Linux machine and change inventory file to control a Windows machine remotely. 
 ### Installation on Windows
@@ -23,7 +22,7 @@ Install chocolatey
 
 ## Run
 In powershell
-```./run.bat <path to folder to be created> (C:\Users\user)```
+```./run.bat <path to folder to be created> (e.g. C:\Users\user)```
 
 TBD
 ### Run all tasks
