@@ -4,7 +4,7 @@ set path=%1
 if not defined path set path=C:
 echo Disk is set to %path%
 
-set folders=%path%\google-drive %path%\movies %path%\tv-series %path%\games %path%\downloads
+set folders=%path%\cloud %path%\movies %path%\tv-series %path%\games %path%\downloads
 
 echo Folders to be created %folders%
 
